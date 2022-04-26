@@ -14,12 +14,12 @@ class RectangleSpec extends AnyFlatSpec with should.Matchers {
     rectangle.b shouldBe 4
   }
 
-  it should "have perimeter, according to input parameter" in {
+  it should "have perimeter, according to input parameters" in {
     val rectangle = Rectangle(2, 4)
     rectangle.perimeter shouldBe 12
   }
 
-  it should "have area, according to input parameter" in {
+  it should "have area, according to input parameters" in {
     val rectangle = Rectangle(2, 4)
     rectangle.area shouldBe 8
   }
